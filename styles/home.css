@@ -1,0 +1,58 @@
+/* Estilos específicos da página inicial */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9f0f9;
+  border-radius: 8px;
+}
+
+.hero-title {
+  color: #2c4c7c;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text {
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.cta-button {
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #357abd;
+}
+
+.features {
+  padding: 2rem 0;
+}
+
+.features h3 {
+  color: #2c4c7c;
+  font-size: 1.8rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+}
+
+.feature-list {
+  list-style-position: inside;
+  margin-left: 1rem;
+}
+
+.feature-list li {
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+}
